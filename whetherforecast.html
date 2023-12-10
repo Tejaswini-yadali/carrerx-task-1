@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color:BLACK;
+        }
+      
+        .form-container {
+      max-width: 400px;
+      margin: 50px auto;
+    }
+    li,ol{
+      list-style-type: none;
+      padding: 0;
+    }
+    li{
+      display: inline;
+    }
+   
+    </style>
+</head>
+<body>
+    <nav>
+    
+     <h1 class="text-center text-danger"><a class="navbar-brand text-center" href="#"><img src="w2.jpg" style="border-radius:100%; width:60px;height:60px;"></a><b> Weather forecast <br> welcome back</b></h1>
+      </nav>
+      <hr class="text-light"> 
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <h1 class="text-light text-center"> 25&deg;C.</h1>
+                <h2 class="text-light text-center"> Rainy Day </h2>
+                <h5 class="text-warning text-center"> Today,expect a rainy day...<br> make sure to grab your umbrella..</h5>
+                <div class="container form-container">
+                  <form>
+                    <div class="form-group">
+                      <label for="name"></label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your country">
+                    </div>
+                   <div class="form-group">
+                      <label for="Phone Number"></label>
+                      <input type="password" class="form-control" id="Phone Number" placeholder="Enter your current location">
+                    </div>
+                    <button type="submit" class="btn btn-outline-success btn-center ms-5 mt-3">GETDATA</button>
+                  </form>    
+        </div>
+       </div>
+       <div class="col-md-7">
+        <h3 CLASS="text-warning  text-center mb-5"> TODAY'S WEATHER REPORTS</h3>
+        <table border="10PX" width="800px" align="center">
+          <tr class="text-light bg-success">
+            <td> <h3> NOW</h3></td>
+            <td> <H3>15:00</H3></td>
+            <td> <H3> 16:00</H3></td>
+            <td><H3> 17:00</H3></td>
+            <td><H3> 18:00</H3></td>
+          </tr>
+          <tr class="text-light bg-danger">
+            <td>  25&deg;C.</td>
+            <td> 24&deg;C. </td>
+            <td> 20&deg;C. </td>
+            <td> 15&deg;C. </td>
+            <td> 20&deg;C. </td>
+          </tr>
+        </table>
+        <h3 CLASS="text-warning  text-center  mt-5 mb-5"> TOMORROW'S WEATHER REPORTS</h3>
+        <table border="10PX" width="800px" align="center">
+          <tr class="text-light bg-success">
+            <td> <h3> today</h3></td>
+            <td> <H3>15:00</H3></td>
+            <td> <H3> 16:00</H3></td>
+            <td><H3> 17:00</H3></td>
+            <td><H3> 18:00</H3></td>
+          </tr>
+          <tr class="text-light bg-danger">
+            <td>  25&deg;C.</td>
+            <td> 25&deg;C. </td>
+            <td> 35&deg;C. </td>
+            <td> 15&deg;C. </td>
+            <td> 20&deg;C. </td>
+          </tr>
+        </table>
+      </div>  
+    </div>
+    <hr class="text-white">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bg-dark text-light text-center p-3"> copy right @2023</div>
+      </div>
+      </div>
+    </body>
+       </html>
+    
